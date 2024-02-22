@@ -1,10 +1,11 @@
 // Header.js
 import React from 'react';
+import logoImage from './logo.jpg';
 
 const Header = () => {
   return (
     <header>
-      <img src="path/to/your/logo.png" alt="Little Lemon Logo" />
+      <img src={logoImage} alt="Little Lemon Lgo" />
     </header>
   );
 };
