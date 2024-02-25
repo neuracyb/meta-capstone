@@ -1,10 +1,11 @@
 // Footer.js
 import React from 'react';
+import './App.css'
 
 const Footer = () => {
   return (
-    <footer>
-            Doormat Navigation
+    <footer className="footer">
+            Navigation
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About Us</a></li>

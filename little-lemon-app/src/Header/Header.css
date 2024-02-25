@@ -1,0 +1,27 @@
+header {
+    display: grid;
+    grid-column: 3 / span 2;
+    height: 70px;
+  }
+
+@media screen and (max-width: 768px) {
+    header {
+      grid-column: 1 / span 12;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    header {
+      padding-right: 3rem;
+    }
+  }
+
+@media only screen and (max-width: 375px) {
+    header {
+      grid-column: 1 / span 12;
+      padding-left: 3rem;
+    }
+  }
