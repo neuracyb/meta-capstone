@@ -1,5 +1,7 @@
 import React from "react";
-import SpecialCard from "./Card/SpecialCard";
+import SpecialCard1 from "./Card/SpecialCard1";
+import SpecialCard2 from "./Card/SpecialCard2";
+import SpecialCard3 from "./Card/SpecialCard3";
 import "./Specials.css";
 
 function Specials() {
@@ -9,9 +11,9 @@ function Specials() {
         <div className="specials">
           <h1>This weeks specials</h1>
           <div className="specials-grid">
-            <SpecialCard />
-            <SpecialCard />
-            <SpecialCard />
+            <SpecialCard1 />
+            <SpecialCard2 />
+            <SpecialCard3 />
           </div>
         </div>
       </div>
