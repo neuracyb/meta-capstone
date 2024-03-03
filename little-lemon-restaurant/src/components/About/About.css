@@ -20,6 +20,25 @@
 .about-right {
   display: flex;
   justify-content: center;
+  position: relative;
+  width: 80rem;
+}
+
+.about-right img:first-child{
+  position: absolute;
+  top: 10px;
+  left: 50rem;
+  width: 30%;
+  height: 80%;
+}
+
+.about-right img:last-child{
+  position: absolute;
+  top: 50px;
+  left: 30rem;
+  width: 30%;
+  height: 80%;
+  clip: rect(0px, 0px, 50%, 0px);
 }
 
 .about-right > img {

@@ -1,5 +1,6 @@
 import React from "react";
-import image from "../../assets/restaurant.jpg";
+import image1 from "../../assets/restaurant.jpg";
+import image2 from "../../assets/pasta.jpg";
 import "./About.css";
 
 function About() {
@@ -19,7 +20,8 @@ function About() {
             </p>
           </div>
           <div className="about-right">
-            <img src={image} alt="Little Lemon Restaurant" />
+            <img src={image1} alt="Little Lemon Restaurant" />
+            <img src={image2} alt="Little Lemon Restaurant" />
           </div>
         </div>
       </div>
