@@ -8,7 +8,7 @@
 }
 
 .specials {
-  grid-column: 3 / 11;
+  grid-column:  3/ 11;
   grid-row: 2;
   padding-bottom: 3rem;
 }

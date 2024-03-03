@@ -26,7 +26,7 @@ function SpecialCard1() {
             icon={faTruck}
             size={"sm"}
             color="black"
-            style={{ paddingLeft: "5px" }}
+            style={{ paddingLeft: "2px" }}
           />
         </h4>
       </div>
